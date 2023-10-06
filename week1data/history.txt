@@ -1,0 +1,38 @@
+    1  git add week1data
+    2  grep "Culture" *.txt
+    3  cd week1data
+    4  grep "Culture" *.txt
+    5  git commit -m "Data"
+    6  git push
+    7  grep "Abba" *.txt ¦ cut -d "," -f 2,3
+    8  grep "Abba" *.txt | cut -d "," -f 2,3
+    9  clear
+   10  cat *.txt | head -n 25
+   11  cat *.txt | head -n 25 | tail -n 1
+   12  head -n 47 | tail -n 1
+   13  cat *.txt | head -n 42 | tail -n 1
+   14  man grep
+   15  man cut
+   16  cat *.txt > all.txt
+   17  man grep
+   18  grep "Eminem" -f "all.txt"
+   19  grep "all.txt" "Eminem"
+   20  man grep
+   21  grep "Eminem" all.txt
+   22  grep "1992" all.txt
+   23  grep "pink_floyd" | cat -d "," -f 4
+   24  grep "pink_floyd" | cat --d "," -f 4
+   25  grep "pink_floyd" | cut -d "," -f 4
+   26  grep "Pink_Floyd" | cut -d "," -f 4
+   27  grep "Pink_Floyd" all.txt | cut -d "," -f 4
+   28  grep Pink Floyd" " all.txt | cut -d "," -f 4
+   29  grep "197" all.txt | cut -d "," -f 2 | sort
+   30  grep ",200" | cut -d "," -f 2,3 > naughties.txt
+   31  grep ",200" all.txt | cut -d "," -f 2,3 > naughties.txt
+   32  echo naughties.txt
+   33  man echo
+   34  man sort
+   35  cat naughties.txt
+   36  man grep
+   37  clear
+   38  history > history.txt
